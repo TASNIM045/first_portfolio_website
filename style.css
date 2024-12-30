@@ -14,7 +14,19 @@ body {
       font-weight: 700;
       padding: 15px 35px;
   }
-  
+
+  .about-me {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .about-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+  }
   
   /* nav reletade style */
   nav {
@@ -77,16 +89,21 @@ body {
 
   /* main section */
 
+  main {
+    max-width: 1140px;
+    margin: 0px auto;
+  }
   /* about section */
   .about {
-    background-color: #FFF8F3;
-    height: 400px;
-    width: 1200px;
-    margin: 20px auto;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 100px 0px;
   }
-  .about .about-me {
-    text-align: center;
+  .about-info {
+    display: flex;
+    justify-content: space-around;
   }
-  .about .about-dis {
+  .info {
     text-align: center;
   }
