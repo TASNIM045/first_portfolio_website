@@ -22,7 +22,6 @@ body {
       align-items: center;
       justify-content: space-between;
       padding: 0px 200px;
-      background-color: #FFF8F3;
   }
   nav > ul {
       display: flex;
@@ -45,9 +44,49 @@ body {
   /* header related style */
   .header {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
   }
   .banner {
     padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-content {
+    max-width: 500px;
+  }
+  .banner .profile-pic {
+    width: 350px;
+    height: 400px;
+  }
+  .banner-greting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+  }
+  .banner-name {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+  /* main section */
+
+  /* about section */
+  .about {
     background-color: #FFF8F3;
+    height: 400px;
+    width: 1200px;
+    margin: 20px auto;
+  }
+  .about .about-me {
+    text-align: center;
+  }
+  .about .about-dis {
+    text-align: center;
   }
