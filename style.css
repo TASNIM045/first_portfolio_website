@@ -21,6 +21,8 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 0px 200px;
+      background-color: #FFF8F3;
   }
   nav > ul {
       display: flex;
@@ -39,4 +41,13 @@ body {
       font-size: 45px;
       font-weight: 800;
   }
-  
+
+  /* header related style */
+  .header {
+    background-color: #FFF8F3;
+  }
+  .banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    background-color: #FFF8F3;
+  }
