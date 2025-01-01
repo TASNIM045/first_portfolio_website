@@ -105,6 +105,12 @@ nav a {
   color: #757575;
 }
 
+.contact-btn {
+  color: #FD6E0A;
+  background-color: #FFF;
+  border: #FD6E0A 1px solid;
+}
+
 /* main section style */
 
 main {
