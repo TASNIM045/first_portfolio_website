@@ -11,11 +11,18 @@ body {
 .primary-button {
   border-radius: 5px;
   background: #FD6E0A;
+  border: 0;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
 }
 
 /* nav related style */
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-title {
@@ -26,6 +33,7 @@ nav {
 
 nav>ul {
   display: flex;
+  align-items: center
 }
 
 nav li {
