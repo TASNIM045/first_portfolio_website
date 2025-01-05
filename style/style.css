@@ -248,10 +248,27 @@ textarea {
 /* for small device */
 
 @media screen and (max-width: 576px) {
-  .skill-container {
+
+  .skill-container,
+  .resume-container,
+  .about-info-container {
     flex-direction: column;
   }
+
   #what-i-do-description {
     padding: 20px;
+  }
+
+  footer, .about{
+    padding: 10px;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+  }
+  .footer-column {
+    width: 80%;
   }
 }
